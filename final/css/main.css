@@ -1,0 +1,268 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face
+{font-family: arial;
+src: url("../fonts/ARIALUNI.TTF");}
+
+.web
+{width: 100%;
+height: auto;
+background-color: white;}
+
+/*trang 1*/
+.firstpage
+{width: 100%;
+height: 800px;
+background: radial-gradient(#ffffff, #ffffff, #f3f3f4, #f3f3f4, #c8c8c8);}
+
+.menubar
+{width:100%;
+height: 200px;
+background-color: transparent;
+}
+
+.logo
+{width: 40%;
+height: 200px;
+background-color: transparent;
+float: left;}
+
+.menu
+{width: 60%;
+height: 200px;
+background-color: transparent;
+float: left;
+font-family: arial;
+}
+
+.menu ul
+{list-style: none;}
+
+.menu ul li
+{float: left; padding: 20px;}
+
+.menu ul li:hover
+{background-color: #9496a5;}
+
+.menu ul li a
+{text-decoration: none;
+color: antiquewhite;}
+
+.menu ul li:hover a
+{color: whitesmoke;}
+
+.image
+{width: 50%;
+height: 600px;
+float: left;
+background: url("../images/1.png");
+background-position:left;
+background-size: 70%;
+background-repeat: no-repeat;
+}
+
+.gioithieu
+{width: 30%;
+height: 400px;
+float: left;
+margin: 100px 10% 100px 10%;
+font-family: arial;
+font-size: 18px;
+line-height: 20px;}
+
+.searchtool
+{width: 100%;
+height: 200px;
+background-color: lightgrey;
+display: flex;
+justify-content: center;}
+
+.content
+{width: 40%;
+height: 90px;
+background-color: transparent;
+float: left;
+padding: 60px 5% 50px 5%;
+font-family: arial;}
+
+
+input
+{width:70%;
+height: 50px;
+border-radius: 10px;
+outline: none;
+border-color: darkgrey;
+}
+
+button
+{width: 20%;
+height: 50px;
+border-radius: 50px;
+background-color: aqua;
+border:none;
+color: white;}
+
+
+/*trang 2*/
+.secondpage
+{width: 100%;
+height: 800px;
+background-color: white;}
+
+.image2
+{width: 50%;
+height: 800px;
+background-color: white;
+float: left;}
+
+.content2
+{width: 30%;
+height: 400px;
+background-color: white;
+float: left;
+font-family: arial;
+margin: 200px 10% 200px 10%;
+}
+
+/*trang 3*/
+.thirdpage
+{width: 100%;
+height: 1200px;
+background-color: lightgray;}
+
+.squareimg
+{width: 25%;
+height: 600px;
+background-color: lightgray;
+float: left;}
+
+.squareletter
+{width: 15%;
+height: 300px;
+background-color: lightgray;
+float: left;
+margin: 100px 5% 200px 5%;
+font-family: arial;}
+
+
+
+/*trang 4*/
+.forthpage
+{width: 100%;
+height: 1000px;
+background-color: white;}
+
+.intro
+{width: 30%;
+height: 50px;
+background-color: transparent;
+margin: 70px 35% 30px 35%;
+font-family: arial;}
+
+.ctr
+{width: 100%;
+height: 700px;
+background-color: transparent;
+display: flex;
+justify-content: center;}
+
+.ctrcon
+{width: 23%;
+height:700px;
+background-color: transparent;
+float: left;
+margin: 0 1% 0 1%;
+font-family: arial;
+}
+
+
+/*trang 5*/
+.fifthpage
+{width: 100%;
+height: 200px;
+background-color: blue;}
+
+.khungchu
+{width: 100%;
+height: 200px;
+background-color: aqua;
+display: flex;
+justify-content: center;}
+
+.noidung
+{width: 17%;
+height: 100px;
+background-color: transparent;
+float: left;
+margin: 50px 1% 50px 1%;
+font-family: arial;
+}
+
+/*trang 6*/
+.sixthhpage
+{width: 100%;
+height: 800px;
+background-color: white;}
+
+.events
+{width: 30%;
+height: 50px;
+background-color: transparent;
+margin: 70px 35% 30px 35%;
+font-family: arial;}
+
+.khungchung
+{width: 100%;
+height: 750px;
+background-color: transparent;
+display: flex;
+justify-content: center;}
+
+.detail
+{width: 23%;
+height:700px;
+background-color: transparent;
+float: left;
+margin: 0 1% 0 1%;
+font-family: arial;}
+
+/*trang 7*/
+.seventhpage
+{width: 100%;
+height: 500px;
+background-color: lightgray;}
+
+.chund
+{width: 40%;
+height: 200px;
+background-color:lightgray;
+font-family: arial;
+margin: 150px 30% 150px 30%; 
+}
+
+/*trang 8*/
+.eighthpage
+{width: 100%;
+height: 500px;
+background-color: chartreuse;}
+
+.lienhe
+{width: 100%;
+height: 500px;
+background-color: white;
+display: flex;
+justify-content: center;}
+
+.lienhecon
+{width: 17%;
+height: 200px;
+background-color: transparent;
+float: left;
+margin: 150px 1% 150px 1%;}
+
+.hcn
+{width: 50px;
+height: 75px;
+border: 3px solid aqua;
+}
